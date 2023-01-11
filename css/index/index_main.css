@@ -1,0 +1,310 @@
+.bg-body-1 {
+  display: flex;
+  height: 50rem;
+  max-width: 500rem;
+  width: 100%;
+  background: #fff;
+}
+.bg-body-1 .global-menu-titre {
+  display: flex;
+  flex-direction: column;
+  max-width: 75rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-body-1 .global-menu-titre .titre-global-menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.bg-body-1 .global-menu-titre .titre-global-menu h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.bg-body-1 .global-menu-titre .global-menu {
+  display: flex;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu {
+  width: 25rem;
+  height: 30rem;
+  margin: 0 1.5rem;
+  border-radius: 0 40px;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  position: relative;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h5 {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0rem;
+  position: relative;
+  color: rgba(0, 0, 0, 0.75);
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  height: 4rem;
+  margin-top: 23rem;
+  border-radius: 0 0 0 40px;
+  padding: 0 1.5rem;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .prix {
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a {
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: #000;
+  transition: 0.5s;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a:hover {
+  transform: scale(1.1);
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .buton-choisir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2.5rem;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 15px;
+}
+.bg-body-1 .global-menu-titre .global-menu .first-menu {
+  background: linear-gradient(-35deg, rgba(184, 255, 69, 0.8) 40%, rgba(225, 255, 177, 0.8));
+}
+.bg-body-1 .global-menu-titre .global-menu .first-menu .footer-menu {
+  background: linear-gradient(45deg, rgb(168, 255, 27), rgb(219, 255, 162) 65%);
+}
+.bg-body-1 .global-menu-titre .global-menu .first-menu .footer-menu .buton-choisir {
+  background: rgb(168, 255, 27);
+}
+.bg-body-1 .global-menu-titre .global-menu .second-menu {
+  background: linear-gradient(-35deg, rgba(69, 255, 94, 0.8) 40%, rgba(177, 255, 187, 0.8));
+}
+.bg-body-1 .global-menu-titre .global-menu .second-menu .footer-menu {
+  background: linear-gradient(45deg, rgb(28, 255, 58), rgb(165, 255, 177) 65%);
+}
+.bg-body-1 .global-menu-titre .global-menu .second-menu .footer-menu .buton-choisir {
+  background: rgb(28, 255, 58);
+}
+.bg-body-1 .global-menu-titre .global-menu .third-menu {
+  background: linear-gradient(-35deg, rgba(69, 255, 193, 0.8) 40%, rgba(176, 255, 229, 0.8));
+}
+.bg-body-1 .global-menu-titre .global-menu .third-menu .footer-menu {
+  background: linear-gradient(45deg, rgb(30, 255, 180), rgb(162, 255, 224) 65%);
+}
+.bg-body-1 .global-menu-titre .global-menu .third-menu .footer-menu .buton-choisir {
+  background: rgb(30, 255, 180);
+}
+
+.bg-body-2 {
+  display: flex;
+  height: 10rem;
+  max-width: 500rem;
+  width: 100%;
+  background: rgb(230, 255, 230);
+}
+.bg-body-2 .info-livraison-paiement {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-body-2 .info-livraison-paiement .item-info-livraison-paiement {
+  display: flex;
+  max-width: 215px;
+  width: 100%;
+  align-items: center;
+}
+.bg-body-2 .info-livraison-paiement .item-info-livraison-paiement img {
+  max-width: 5rem;
+  width: 100%;
+  margin-right: 1rem;
+}
+
+.bg-body-3 {
+  display: flex;
+  height: 35rem;
+  max-width: 500rem;
+  width: 100%;
+  background: #fff;
+}
+
+.bg-body-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  max-width: 500rem;
+  width: 100%;
+  background: rgb(69, 255, 94);
+}
+.bg-body-4 .title-mail {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+.bg-body-4 .text-mail {
+  margin: 0 2.5rem;
+}
+.bg-body-4 form {
+  margin-top: 3rem;
+}
+.bg-body-4 form input {
+  height: 3rem;
+  border: solid 2px #000;
+  border-radius: 10px;
+  margin: 0 0.75rem;
+}
+.bg-body-4 form input[type=mail] {
+  width: 15rem;
+  padding: 0 1rem;
+  color: #000;
+  background: rgb(69, 255, 94);
+}
+.bg-body-4 form input[type=submit] {
+  width: 5rem;
+  color: #000;
+  background: rgb(69, 255, 94);
+  transition: 0.4s;
+}
+.bg-body-4 form input[type=submit]:hover {
+  color: rgb(69, 255, 94);
+  background: #000;
+}
+
+@media only screen and (max-width: 1050px) {
+  .bg-body-2 {
+    height: 20rem;
+    background: rgb(230, 255, 230);
+  }
+  .bg-body-2 .info-livraison-paiement {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .bg-body-2 .info-livraison-paiement .item-info-livraison-paiement {
+    transform: scale(0.8);
+    display: flex;
+    max-width: 215px;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bg-body-2 .info-livraison-paiement .item-info-livraison-paiement img {
+    max-width: 5rem;
+    margin-right: 1rem;
+  }
+  .bg-body-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    max-width: 500rem;
+    width: 100%;
+    background: rgb(69, 255, 94);
+    padding: 0 0.5rem;
+  }
+  .bg-body-4 .title-mail {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .bg-body-4 .text-mail {
+    margin: 0 2.5rem;
+    text-align: justify;
+  }
+  .bg-body-4 form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bg-body-4 form input {
+    height: 3rem;
+    border: solid 2px #000;
+    border-radius: 10px;
+    margin: 0 0.75rem;
+    margin-top: 3rem;
+  }
+  .bg-body-4 form input[type=mail] {
+    width: 15rem;
+    padding: 0 1rem;
+    color: #000;
+    background: rgb(69, 255, 94);
+  }
+  .bg-body-4 form input[type=submit] {
+    width: 5rem;
+    color: #000;
+    background: rgb(69, 255, 94);
+    transition: 0.4s;
+  }
+  .bg-body-4 form input[type=submit]:hover {
+    color: rgb(69, 255, 94);
+    background: #000;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .bg-body-2 .info-livraison-paiement .item-info-livraison-paiement img {
+    max-width: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .bg-body-4 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-body-4 form input {
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .bg-body-4 {
+    height: 26rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .bg-body-4 form {
+    margin-top: 2rem;
+  }
+  .bg-body-4 form input {
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .bg-body-4 {
+    height: 28rem;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .bg-body-2 .info-livraison-paiement .item-info-livraison-paiement img {
+    max-width: 3rem;
+  }
+}
+@media only screen and (max-width: 262px) {
+  .bg-body-4 {
+    height: 30rem;
+    padding: 0;
+  }
+}/*# sourceMappingURL=index_main.css.map */

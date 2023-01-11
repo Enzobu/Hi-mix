@@ -1,0 +1,396 @@
+.bg-body-1 {
+    //  menu
+    display: flex;
+    height: 50rem;
+    max-width: 500rem;
+    width: 100%;
+    background: #fff;
+
+    & .global-menu-titre {
+        display: flex;
+        flex-direction: column;
+        max-width: 75rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        & .titre-global-menu {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5rem;
+            text-align: center;
+
+            & h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        & .global-menu {
+            display: flex;
+
+            & .menu {
+                width: 25rem;
+                height: 30rem;
+                margin: 0 1.5rem;
+                border-radius: 0 40px;
+
+                & .titre-menu {
+
+                    & h4 {
+                        font-size: 1.5rem;
+                        text-align: center;
+                        margin-top: .5rem;
+                        position: relative;
+                    }
+                    & h5 {
+                        font-size: .8rem;
+                        text-align: center;
+                        margin-top: 0rem;
+                        position: relative;
+                        color: rgba(0, 0, 0, 0.75);
+                    }
+                }
+
+                & .footer-menu {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 25rem;
+                    height: 4rem;
+                    margin-top: 23rem;
+                    border-radius: 0 0 0 40px;
+                    padding: 0 1.5rem;
+
+                    & .prix {
+                        font-size: 1.35rem;
+                        font-weight: bold;
+                    }
+                    
+                    & a {
+                        font-size: 1.35rem;
+                        font-weight: bold;
+                        color: #000;
+                        transition: .5s;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+
+                    & .buton-choisir {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 7rem;
+                        height: 2.5rem;
+                        border: solid 2px rgb(0, 0, 0);
+                        border-radius: 15px;
+                        
+                    }
+                }
+                
+            }
+            
+            & .first-menu {
+                background: linear-gradient(-35deg, rgba(184, 255, 69, 0.8) 40%, rgba(225, 255, 177, 0.8));
+                
+                & .footer-menu {
+                    background: linear-gradient(45deg, rgb(168, 255, 27), rgb(219, 255, 162) 65%);
+                    
+                    & .buton-choisir {
+                        background: rgb(168, 255, 27);
+                    }
+                }
+            }
+            
+            & .second-menu {
+                background: linear-gradient(-35deg, rgba(69, 255, 94, 0.8) 40%, rgba(177, 255, 187, 0.8));;
+                
+                & .footer-menu {
+                    background: linear-gradient(45deg, rgb(28, 255, 58), rgb(165, 255, 177) 65%);
+                    
+                    & .buton-choisir {
+                        background: rgb(28, 255, 58);
+                    }
+                }
+            }
+            
+            & .third-menu {
+                background: linear-gradient(-35deg, rgba(69, 255, 193, 0.8) 40%, rgba(176, 255, 229, 0.8));;
+                
+                & .footer-menu {
+                    background: linear-gradient(45deg, rgb(30, 255, 180), rgb(162, 255, 224) 65%);
+                    
+                    & .buton-choisir {
+                        background: rgb(30, 255, 180);
+                    }
+                }
+            }
+        }
+    }
+}
+.bg-body-2 {
+    // Bandeau info livraison/payment
+    display: flex;
+    height: 10rem;
+    max-width: 500rem;
+    width: 100%;
+    background: rgb(230, 255, 230);
+
+    & .info-livraison-paiement {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        & .item-info-livraison-paiement {
+            display: flex;
+            max-width: 215px;
+            width: 100%;
+            align-items: center;
+
+            & img {
+                max-width: 5rem;
+                width: 100%;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+.bg-body-3 {
+    // rien non plus
+    display: flex;
+    height: 35rem;
+    max-width: 500rem;
+    width: 100%;
+    background: #fff
+}
+
+.bg-body-4 {
+    // Restons en contact
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    max-width: 500rem;
+    width: 100%;
+    background: rgb(69, 255, 94);
+
+    & .title-mail {
+        font-size: 1.6rem;
+        font-weight: bolder;
+        margin-bottom: 4rem;
+    }
+
+    & .text-mail {
+        margin: 0 2.5rem;
+    }
+
+    & form {
+        margin-top: 3rem;
+        
+        & input {
+            height: 3rem;
+            border: solid 2px #000;
+            border-radius: 10px;
+            margin: 0 0.75rem;
+        }
+        & input[type=mail] {
+            width: 15rem;
+            padding: 0 1rem;
+            color: #000;
+            background: rgb(69, 255, 94);
+        }
+        
+        & input[type=submit] {
+            width: 5rem;
+            color: #000;
+            background: rgb(69, 255, 94);
+            transition: .4s;
+
+            &:hover {
+                color: rgb(69, 255, 94);
+                background: #000;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    // Réajustement taille bandeau info paiement livraison
+    .bg-body-2 {
+        // Bandeau info livraison/payment
+        height: 20rem;
+        background: rgb(230, 255, 230);
+        
+        & .info-livraison-paiement {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            font-size: .9rem;
+            
+            & .item-info-livraison-paiement {
+                transform: scale(0.8);
+                display: flex;
+                max-width: 215px;
+                width: 100%;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                
+                & img {
+                    max-width: 5rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+    
+    
+    
+
+    // Réajustement taille restons en contact
+    .bg-body-4 {
+        // Restons en contact
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        max-width: 500rem;
+        width: 100%;
+        background: rgb(69, 255, 94);
+        padding: 0 .5rem;
+    
+        & .title-mail {
+            font-size: 1.6rem;
+            font-weight: bolder;
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        
+        & .text-mail {
+            margin: 0 2.5rem;
+            text-align: justify;
+
+        }
+    
+        & form {
+            display: flex;
+            justify-content: space-between;
+            & input {
+                height: 3rem;
+                border: solid 2px #000;
+                border-radius: 10px;
+                margin: 0 0.75rem;
+                margin-top: 3rem;
+            }
+            & input[type=mail] {
+                width: 15rem;
+                padding: 0 1rem;
+                color: #000;
+                background: rgb(69, 255, 94);
+            }
+            
+            & input[type=submit] {
+                width: 5rem;
+                color: #000;
+                background: rgb(69, 255, 94);
+                transition: .4s;
+    
+                &:hover {
+                    color: rgb(69, 255, 94);
+                    background: #000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    // Réajustement taille bandeau info paiement livraison
+    .bg-body-2 {
+        
+        & .info-livraison-paiement {
+            
+            & .item-info-livraison-paiement {
+                
+                & img {
+                    max-width: 4rem;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    // Réajustement n°2 taille nav
+    .bg-body-4 {
+
+        & form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & input {
+                margin: .5rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 385px) {
+    // Réajustement n°2 taille nav
+    .bg-body-4 {
+        height: 26rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    // Réajustement n°2 taille nav
+    .bg-body-4 {
+
+        & form {
+            margin-top: 2rem;
+            & input {
+                margin: .5rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 300px) {
+    // Réajustement n°2 taille nav
+    .bg-body-4 {
+        height: 28rem;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 280px) {
+    // Réajustement n°2 taille nav
+    .bg-body-2 {
+        
+        & .info-livraison-paiement {
+            
+            & .item-info-livraison-paiement {
+                
+                & img {
+                    max-width: 3rem;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 262px) {
+    // Réajustement n°2 taille nav
+    .bg-body-4 {
+        height: 30rem;
+        padding: 0;
+    }
+}
