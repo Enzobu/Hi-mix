@@ -187,6 +187,11 @@
   background: #000;
 }
 
+@media only screen and (max-width: 1375px) {
+  .bg-body-1 .global-menu-titre .global-menu {
+    overflow-y: hidden;
+  }
+}
 @media only screen and (max-width: 1050px) {
   .bg-body-2 {
     height: 20rem;

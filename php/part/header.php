@@ -1,7 +1,7 @@
 <div class="header-buton">
     <div onclick="changerLeft('0');" class="header-icon"><img src="img/menu.png" alt="menu"></div>
     <li class="nav-item"><a href="">HI-MIX</a></li>
-    <div onclick="changerLeft2('-15rem');" class="blur" id="blur"></div>
+    <div onclick="changerLeft2('-18rem');" class="blur" id="blur"></div>
 </div>
 <nav class="nav" id="nav">
     <ul class="nav-list">

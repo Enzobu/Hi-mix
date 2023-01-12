@@ -132,6 +132,7 @@
         }
     }
 }
+
 .bg-body-2 {
     // Bandeau info livraison/payment
     display: flex;
@@ -222,6 +223,30 @@
         }
     }
 }
+
+
+// ========================================== BREAK-POINT ==========================================
+// ========================================== BREAK-POINT ==========================================
+// ========================================== BREAK-POINT ==========================================
+// ========================================== BREAK-POINT ==========================================
+// ========================================== BREAK-POINT ==========================================
+
+
+
+
+@media only screen and (max-width: 1375px) {
+    .bg-body-1 {
+
+        & .global-menu-titre {
+    
+            & .global-menu {
+                overflow-y: hidden;
+            }
+        }
+    }
+    
+}
+
 
 @media only screen and (max-width: 1050px) {
     // Réajustement taille bandeau info paiement livraison

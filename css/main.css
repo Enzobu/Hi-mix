@@ -10,6 +10,16 @@
   text-decoration: none;
 }
 
+*::-moz-selection {
+  color: #000;
+  background: rgb(96, 255, 221);
+}
+
+*::selection {
+  color: #000;
+  background: rgb(96, 255, 221);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -231,7 +241,7 @@ body::-webkit-scrollbar-thumb:active {
     flex-direction: column;
     position: absolute;
     top: 0;
-    left: -15rem;
+    left: -18rem;
     width: 15rem;
     height: 100%;
     background: linear-gradient(130deg, rgb(69, 255, 94) 15%, rgb(192, 253, 201) 85%);
@@ -241,6 +251,7 @@ body::-webkit-scrollbar-thumb:active {
     z-index: 6;
     transition: 0.4s;
     padding: 1rem 0;
+    box-shadow: 3px 0px 20px rgb(133, 133, 133);
   }
   .header .nav .nav-list {
     display: block;

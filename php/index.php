@@ -17,7 +17,7 @@
     </header>
 
     <div class="bg-body-1">
-        <div class="global-menu-titre"> <!-- J'ai enlever les 'e' au nom de la classe espece d'abruti -->
+        <div class="global-menu-titr"> <!-- J'ai enlever les 'e' au nom de la classe espece d'abruti -->
             <div class="titre-global-menu">
                 <h2>Nos menus</h2>
                 <h3>Mangez innovant, mangez sainement et à bas prix grâce à Hi-mix !</h3>
