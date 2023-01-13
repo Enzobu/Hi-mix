@@ -76,7 +76,7 @@
   justify-content: center;
   width: 7rem;
   height: 2.5rem;
-  border: solid 2px rgb(0, 0, 0);
+  border: solid 2px #000;
   border-radius: 15px;
 }
 .bg-body-1 .global-menu-titre .global-menu .first-menu {
