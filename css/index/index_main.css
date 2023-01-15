@@ -418,6 +418,9 @@
   .bg-body-3 .img-txt-description .img-description img {
     width: 14rem;
   }
+  .bg-body-3 .img-txt-description .txt-description h3 {
+    max-width: 10rem;
+  }
   .bg-body-4 {
     height: 28rem;
     padding: 0;

@@ -16,7 +16,7 @@
         </div>
     </header>
 
-    <div class="bg-body-1">
+    <div class="bg-body-1" id="menus">
         <div class="global-menu-titre"> <!-- J'ai enlever les 'e' au nom de la classe espece d'abruti -->
             <div class="titre-global-menu" id="titre">
                 <h2>Nos menus</h2>
@@ -73,7 +73,7 @@
         </div>
     </div>
     
-    <div class="bg-body-3">
+    <div class="bg-body-3" id="pourquoi-hi-mix">
         <div class="img-txt-description">
             <div class="img-description">
                 <img src="img/shaker-ctrl.jpg" alt="image shaker">
