@@ -17,29 +17,31 @@
     </header>
 
     <div class="bg-body-1">
-        <div class="global-menu-titr"> <!-- J'ai enlever les 'e' au nom de la classe espece d'abruti -->
-            <div class="titre-global-menu">
+        <div class="global-menu-titre"> <!-- J'ai enlever les 'e' au nom de la classe espece d'abruti -->
+            <div class="titre-global-menu" id="titre">
                 <h2>Nos menus</h2>
                 <h3>Mangez innovant, mangez sainement et à bas prix grâce à Hi-mix !</h3>
             </div>
 
-            <div class="global-menu">
+            <div class="global-menu" id="menu">
                 <div class="menu first-menu">
                     <div class="titre-menu">
                         <h4>Menu étudiant</h4>
                         <h5>Pour un petit budget !</h5>
                     </div>
+                    <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">4.90 €</div>
                         <a href=""><div class="buton-choisir">Choisir</div></a>
                     </div>
                 </div>
-
+                
                 <div class="menu second-menu">
                     <div class="titre-menu">
                         <h4>Menu simple</h4>
                         <h5>Pour quelqu'un de simple !</h5>
                     </div>
+                    <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">7.90 €</div>
                         <a href=""><div class="buton-choisir">Choisir</div></a>
@@ -51,6 +53,7 @@
                         <h4>Menu maxi</h4>
                         <h5>Pour une maxi faim !</h5>
                     </div>
+                    <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">10.90 €</div>
                         <a href=""><div class="buton-choisir"><p>Choisir</p></div></a>

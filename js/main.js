@@ -19,6 +19,43 @@ jQuery(function(){
 // }
 
 
+
+// Marge bloc menu responsive
+
+// function menu() {
+//     var largeur = window.innerWidth;
+//     var elem = document.getElementById('menu');
+//     var elem2 = document.getElementById('titre');
+//     if (largeur<425) {
+//         scale = 0.8*largeur/425
+//         elem.style.transform= 'scale('+scale+')';
+//         elem.style.position= 'absolute';
+//         elem.style.top= '22rem';
+//         elem.style.right= '0rem';
+//         elem2.style.position= 'absolute';
+//         elem2.style.top= '25rem';
+//     }
+// }
+
+// window.addEventListener('resize', menu);
+// menu();
+
+
+
+// function menuCacheSize() {
+//     var largeur = window.innerWidth;
+//     var elem = document.getElementById('cache-menu-responsive');
+//     var rect = 448;
+//     var marge_gauche = (largeur-rect['width'])/2;
+//     elem.style.left=marge_gauche+'px';
+
+// }
+
+// document.addEventListener('scroll', menuCacheSize);
+// menuCacheSize();
+
+
+
 function changerLeft (gauche){
     var element1= document.getElementById('nav');
     var element2 = document.getElementById('body');

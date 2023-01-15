@@ -1,61 +1,64 @@
 .bg-body-1 {
   display: flex;
-  height: 50rem;
-  max-width: 500rem;
-  width: 100%;
-  background: #fff;
+  justify-content: center;
+  align-items: center;
 }
 .bg-body-1 .global-menu-titre {
   display: flex;
   flex-direction: column;
-  max-width: 75rem;
-  width: 100%;
-  align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
 }
 .bg-body-1 .global-menu-titre .titre-global-menu {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 5rem;
   text-align: center;
+  margin: 4rem;
 }
 .bg-body-1 .global-menu-titre .titre-global-menu h2 {
-  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+}
+.bg-body-1 .global-menu-titre .titre-global-menu h3 {
   margin-bottom: 1rem;
 }
 .bg-body-1 .global-menu-titre .global-menu {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu {
   width: 25rem;
   height: 30rem;
-  margin: 0 1.5rem;
+  margin: 1rem 1.5rem;
   border-radius: 0 40px;
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .titre-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0 40px 0 0;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h4 {
   font-size: 1.5rem;
-  text-align: center;
-  margin-top: 0.5rem;
-  position: relative;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h5 {
   font-size: 0.8rem;
-  text-align: center;
-  margin-top: 0rem;
-  position: relative;
   color: rgba(0, 0, 0, 0.75);
+}
+.bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
+  height: 22.3rem;
+  padding: 0.5rem;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu {
   display: flex;
+  height: 4rem;
   justify-content: space-between;
   align-items: center;
-  width: 25rem;
-  height: 4rem;
-  margin-top: 23rem;
+  padding: 0 1rem;
   border-radius: 0 0 0 40px;
-  padding: 0 1.5rem;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .prix {
   font-size: 1.35rem;
@@ -83,7 +86,7 @@
   background: linear-gradient(-35deg, rgba(184, 255, 69, 0.8) 40%, rgba(225, 255, 177, 0.8));
 }
 .bg-body-1 .global-menu-titre .global-menu .first-menu .footer-menu {
-  background: linear-gradient(45deg, rgb(168, 255, 27), rgb(219, 255, 162) 65%);
+  background: linear-gradient(45deg, rgb(168, 255, 27), rgb(225, 255, 177) 65%);
 }
 .bg-body-1 .global-menu-titre .global-menu .first-menu .footer-menu .buton-choisir {
   background: rgb(168, 255, 27);
@@ -92,7 +95,7 @@
   background: linear-gradient(-35deg, rgba(69, 255, 94, 0.8) 40%, rgba(177, 255, 187, 0.8));
 }
 .bg-body-1 .global-menu-titre .global-menu .second-menu .footer-menu {
-  background: linear-gradient(45deg, rgb(28, 255, 58), rgb(165, 255, 177) 65%);
+  background: linear-gradient(45deg, rgb(28, 255, 58), rgb(177, 255, 187) 65%);
 }
 .bg-body-1 .global-menu-titre .global-menu .second-menu .footer-menu .buton-choisir {
   background: rgb(28, 255, 58);
@@ -187,9 +190,9 @@
   background: #000;
 }
 
-@media only screen and (max-width: 1375px) {
+@media only screen and (max-width: 1350px) {
   .bg-body-1 .global-menu-titre .global-menu {
-    overflow-y: hidden;
+    max-width: 799px;
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -272,6 +275,20 @@
     max-width: 4rem;
   }
 }
+@media only screen and (max-width: 450px) {
+  .bg-body-1 .global-menu-titre .titre-global-menu {
+    margin: 2rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu {
+    width: 20rem;
+    height: 27.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
+    height: 19.9rem;
+    padding: 0.5rem;
+  }
+}
 @media only screen and (max-width: 400px) {
   .bg-body-4 form {
     display: flex;
@@ -296,6 +313,20 @@
     margin: 0.5rem;
   }
 }
+@media only screen and (max-width: 340px) {
+  .bg-body-1 .global-menu-titre .titre-global-menu {
+    margin: 1rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu {
+    width: 16rem;
+    height: 24rem;
+    margin: 0.75rem 0.5rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
+    height: 16.4rem;
+    padding: 0.5rem;
+  }
+}
 @media only screen and (max-width: 300px) {
   .bg-body-4 {
     height: 28rem;
@@ -307,9 +338,59 @@
     max-width: 3rem;
   }
 }
+@media only screen and (max-width: 275px) {
+  .bg-body-1 .global-menu-titre .titre-global-menu {
+    margin: 0.75rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu {
+    width: 14rem;
+    height: 20rem;
+    margin: 0.75rem 0.5rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
+    height: 12.4rem;
+    padding: 0.5rem;
+  }
+}
 @media only screen and (max-width: 262px) {
   .bg-body-4 {
     height: 30rem;
     padding: 0;
+  }
+}
+@media only screen and (max-width: 255px) {
+  .bg-body-1 .global-menu-titre .titre-global-menu {
+    margin: 0.75rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu {
+    width: 12rem;
+    height: 17rem;
+    margin: 0.75rem 0.5rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
+    height: 9.4rem;
+    padding: 0.5rem;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .prix {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+    transition: 0.5s;
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a:hover {
+    transform: scale(1.1);
+  }
+  .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .buton-choisir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 2.5rem;
+    border: solid 2px #000;
+    border-radius: 15px;
   }
 }/*# sourceMappingURL=index_main.css.map */
