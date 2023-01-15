@@ -74,7 +74,28 @@
     </div>
     
     <div class="bg-body-3">
-        <p>Bah la faut remplir hehe</p>
+        <div class="img-txt-description">
+            <div class="img-description">
+                <img src="img/shaker-ctrl.jpg" alt="image shaker">
+            </div>
+
+            <div class="txt-description">
+                <h3>
+                    Pourquoi Hi-Mix ?
+                </h3>
+                <p>
+                    <b>➔ Résultats faciles.</b> Les repas So Shape font le travail pour vous.
+                    <br><br>
+                    <b>➔ Résultats fiables.</b> Le minimum de calories pour bien s’affiner.
+                    <br><br>
+                    <b>➔ Résultats durables.</b> Sans yoyo grâce à tous les nutriments essentiels recommandés.
+                    <br><br>
+                    <b>➔ Résultats prouvés.</b> Pas d’ingrédient miracle. Juste une nutrition optimale réglementaire.
+                    <br><br>
+                    <b>➔ Résultats voulus.</b> On garde ses muscles ! Jusqu’à 25 g de protéines par repas.
+                </p>
+            </div>
+        </div>
     </div>
     
     <div class="bg-body-4">
