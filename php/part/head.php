@@ -5,4 +5,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <link rel="stylesheet" href="css/main.css">
-<link rel="icon" href="img/nourriture-saine.png">
+<link rel="icon" href="img/hi-mix-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
