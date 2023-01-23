@@ -4,12 +4,46 @@
 // ---------------------------------------------------------------
 // ---------------------------------------------------------------
 
+// original
 
+// $blanc: #fff;
+// $noir: #000;
+// $vert-base: rgb(69, 255, 94);
+// $noir-op_0_75: rgba(0, 0, 0, 0.75);
+// $bleu-vert-pastel: rgb(230, 255, 230);
+// $vert-fonce: rgb(0, 94, 15);
+
+// //first-menu
+// $vert-jaune-op_0_8: rgba(184, 255, 69, 0.8);
+// $vert-jaune-blanc-op_0_8: rgba(225, 255, 177, 0.8);
+// $vert-jaune: rgb(168, 255, 27);
+// $vert-jaune-blanc: rgb(225, 255, 177);
+
+// //second-menu
+// $vert-op_0_8: rgba(69, 255, 94, 0.8);
+// $vert-blanc-op_0_8: rgba(177, 255, 187, 0.8);
+// $vert: rgb(28, 255, 58);
+// $vert-blanc: rgb(177, 255, 187);
+
+// //third-menu
+// $vert-bleu-op_0_8: rgba(69, 255, 193, 0.8);
+// $vert-bleu-blanc-op_0_8: rgba(176, 255, 229, 0.8);
+// $vert-bleu: rgb(30, 255, 180);
+// $vert-bleu-blanc: rgb(162, 255, 224);
+
+// /Original
+
+
+
+
+// $blanc: #e8fff3;
 $blanc: #fff;
 $noir: #000;
+$texte: #504852;
 $vert-base: rgb(69, 255, 94);
 $noir-op_0_75: rgba(0, 0, 0, 0.75);
 $bleu-vert-pastel: rgb(230, 255, 230);
+$vert-fonce: rgb(0, 94, 15);
 
 //first-menu
 $vert-jaune-op_0_8: rgba(184, 255, 69, 0.8);
@@ -31,17 +65,23 @@ $vert-bleu-blanc: rgb(162, 255, 224);
 
 
 
+
+$blur-footer-menu: 6px;
+$blur-buton-menu: 50px;
+
+
+
 // ---------------------------------------------------------------
 // ---------------------------------------------------------------
 // -------------------------- Variables --------------------------
 // ---------------------------------------------------------------
 // ---------------------------------------------------------------
 
-
 .bg-body-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: $blanc;
 
     & .global-menu-titre {
         display: flex;
@@ -56,10 +96,12 @@ $vert-bleu-blanc: rgb(162, 255, 224);
             & h2 {
                 margin-bottom: 1rem;
                 font-size: 2.25rem;
+                color: $texte;
             }
             
             & h3 {
                 margin-bottom: 1rem;
+                color: $texte;
             }
         }
 
@@ -87,11 +129,12 @@ $vert-bleu-blanc: rgb(162, 255, 224);
 
                     & h4 {
                         font-size: 1.5rem;
+                        color: $texte;
                     }
 
                     & h5 {
                         font-size: .8rem;
-                        color: $noir-op_0_75;
+                        color: $texte;
                     }
                 }
 
@@ -111,13 +154,14 @@ $vert-bleu-blanc: rgb(162, 255, 224);
                     & .prix {
                         font-size: 1.35rem;
                         font-weight: bold;
+                        color: $texte;
                     }
                     
                     & a {
                         font-size: 1.35rem;
                         font-weight: bold;
-                        color: $noir;
                         transition: .5s;
+                        color: $texte;
 
                         &:hover {
                             transform: scale(1.1);
@@ -132,43 +176,55 @@ $vert-bleu-blanc: rgb(162, 255, 224);
                         height: 2.5rem;
                         border: solid 2px $noir;
                         border-radius: 15px;
-                        
+                        color: $texte;
                     }
                 }
             }
 
             & .first-menu {
-                background: linear-gradient(-35deg, $vert-jaune-op_0_8 40%, $vert-jaune-blanc-op_0_8);
+                // background: linear-gradient(-35deg, $vert-jaune-op_0_8 40%, $vert-jaune-blanc-op_0_8);
+                background-image: url('../../img/CaptureSoShape.PNG');
+                background-position: center;
                 
                 & .footer-menu {
-                    background: linear-gradient(45deg, $vert-jaune, $vert-jaune-blanc 65%);
+                    // background: linear-gradient(45deg, $vert-jaune, $vert-jaune-blanc 65%);
+                    backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {
-                        background: $vert-jaune;
+                        // background: $vert-jaune;
+                        backdrop-filter: blur($blur-buton-menu);
                     }
                 }
             }
             
             & .second-menu {
-                background: linear-gradient(-35deg, $vert-op_0_8 40%, $vert-blanc-op_0_8);;
+                // background: linear-gradient(-35deg, $vert-op_0_8 40%, $vert-blanc-op_0_8);;
+                background-image: url('../../img/CaptureSoShape.PNG');
+                background-position: center;
                 
                 & .footer-menu {
-                    background: linear-gradient(45deg, $vert, $vert-blanc 65%);
+                    // background: linear-gradient(45deg, $vert, $vert-blanc 65%);
+                    backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {
-                        background: $vert;
+                        // background: $vert;
+                        backdrop-filter: blur($blur-buton-menu);
                     }
                 }
             }
             
             & .third-menu {
-                background: linear-gradient(-35deg, $vert-bleu-op_0_8 40%, $vert-bleu-blanc-op_0_8);;
+                // background: linear-gradient(-35deg, $vert-bleu-op_0_8 40%, $vert-bleu-blanc-op_0_8);;
+                background-image: url('../../img/CaptureSoShape.PNG');
+                background-position: center;
                 
                 & .footer-menu {
-                    background: linear-gradient(45deg, rgb(30, 255, 180), rgb(162, 255, 224) 65%);
+                    // background: linear-gradient(45deg, rgb(30, 255, 180), rgb(162, 255, 224) 65%);
+                    backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {
-                        background: rgb(30, 255, 180);
+                        // background: rgb(30, 255, 180);
+                        backdrop-filter: blur($blur-buton-menu);
                     }
                 }
             }
@@ -183,7 +239,7 @@ $vert-bleu-blanc: rgb(162, 255, 224);
     height: 10rem;
     max-width: 500rem;
     width: 100%;
-    background: rgb(230, 255, 230);
+    background: $bleu-vert-pastel;
 
     & .info-livraison-paiement {
         width: 85%;
@@ -199,6 +255,7 @@ $vert-bleu-blanc: rgb(162, 255, 224);
             max-width: 215px;
             width: 100%;
             align-items: center;
+            color: $texte;
 
             & img {
                 max-width: 5rem;
@@ -208,6 +265,7 @@ $vert-bleu-blanc: rgb(162, 255, 224);
         }
     }
 }
+
 .bg-body-3 {
     // image et txt descrition
     display: flex;
@@ -238,12 +296,13 @@ $vert-bleu-blanc: rgb(162, 255, 224);
             & h3 {
                 margin-bottom: 2.5rem;
                 font-size: 2.3rem;
-                color: rgb(0, 77, 6);
+                color: $vert-fonce;
             }
 
             & p {
                 margin-top: 2rem;
                 font-size: 1.08rem;
+                color: $texte;
             }
         }
     }
@@ -258,16 +317,19 @@ $vert-bleu-blanc: rgb(162, 255, 224);
     height: 25rem;
     max-width: 500rem;
     width: 100%;
-    background: rgb(69, 255, 94);
+    background: $vert-base;
 
     & .title-mail {
         font-size: 1.6rem;
         font-weight: bolder;
         margin-bottom: 4rem;
+        color: $texte;
+        text-transform: uppercase;
     }
 
     & .text-mail {
         margin: 0 2.5rem;
+        color: $texte;
     }
 
     & form {
@@ -278,6 +340,7 @@ $vert-bleu-blanc: rgb(162, 255, 224);
             border: solid 2px $noir;
             border-radius: 10px;
             margin: 0 0.75rem;
+            color: $texte;
         }
         & input[type=mail] {
             width: 15rem;
@@ -394,13 +457,13 @@ $vert-bleu-blanc: rgb(162, 255, 224);
             & input[type=mail] {
                 width: 15rem;
                 padding: 0 1rem;
-                color: #000;
+                color: $noir;
                 background: $vert-base;
             }
             
             & input[type=submit] {
                 width: 5rem;
-                color: #000;
+                color: $noir;
                 background: $vert-base;
                 transition: .4s;
     

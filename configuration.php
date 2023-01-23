@@ -5,7 +5,8 @@ define('VAR_PASSWORD', 'password');
 const MAPPING = [
     '' => 'php/index.php',
     '404' => 'php/404.php',
-    'test' => 'php/test.php'
+    'test' => 'php/test.php',
+    'mail' => 'php/mail.php'
 ];
 
 function getFileFromUrl(){

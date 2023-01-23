@@ -1,3 +1,75 @@
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// -------------------------- Variables --------------------------
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+
+// original
+
+// $blanc: #fff;
+// $noir: #000;
+// $vert-base: rgb(69, 255, 94);
+// $noir-op_0_75: rgba(0, 0, 0, 0.75);
+// $bleu-vert-pastel: rgb(230, 255, 230);
+// $vert-fonce: rgb(0, 94, 15);
+
+// //first-menu
+// $vert-jaune-op_0_8: rgba(184, 255, 69, 0.8);
+// $vert-jaune-blanc-op_0_8: rgba(225, 255, 177, 0.8);
+// $vert-jaune: rgb(168, 255, 27);
+// $vert-jaune-blanc: rgb(225, 255, 177);
+
+// //second-menu
+// $vert-op_0_8: rgba(69, 255, 94, 0.8);
+// $vert-blanc-op_0_8: rgba(177, 255, 187, 0.8);
+// $vert: rgb(28, 255, 58);
+// $vert-blanc: rgb(177, 255, 187);
+
+// //third-menu
+// $vert-bleu-op_0_8: rgba(69, 255, 193, 0.8);
+// $vert-bleu-blanc-op_0_8: rgba(176, 255, 229, 0.8);
+// $vert-bleu: rgb(30, 255, 180);
+// $vert-bleu-blanc: rgb(162, 255, 224);
+
+// /Original
+
+
+
+
+$blanc: #d4ffe8;
+$noir: #000;
+$texte: #484349;
+$vert-base: rgb(69, 255, 94);
+$noir-op_0_75: rgba(0, 0, 0, 0.75);
+$bleu-vert-pastel: rgb(230, 255, 230);
+$vert-fonce: rgb(0, 94, 15);
+
+//first-menu
+$vert-jaune-op_0_8: rgba(184, 255, 69, 0.8);
+$vert-jaune-blanc-op_0_8: rgba(225, 255, 177, 0.8);
+$vert-jaune: rgb(168, 255, 27);
+$vert-jaune-blanc: rgb(225, 255, 177);
+
+//second-menu
+$vert-op_0_8: rgba(69, 255, 94, 0.8);
+$vert-blanc-op_0_8: rgba(177, 255, 187, 0.8);
+$vert: rgb(28, 255, 58);
+$vert-blanc: rgb(177, 255, 187);
+
+//third-menu
+$vert-bleu-op_0_8: rgba(69, 255, 193, 0.8);
+$vert-bleu-blanc-op_0_8: rgba(176, 255, 229, 0.8);
+$vert-bleu: rgb(30, 255, 180);
+$vert-bleu-blanc: rgb(162, 255, 224);
+
+
+
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// -------------------------- Variables --------------------------
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+
 *, *::before, *::after {
 	box-sizing: border-box;
 }
@@ -37,7 +109,7 @@ html {
 }
 
 body {
-    font-family: 'Dejavu Sans';
+    font-family: 'Quicksand', sans-serif;
 
     &::-webkit-scrollbar {
     width: 10px; /* width of the entire scrollbar */
@@ -82,10 +154,12 @@ body {
         & h1 {
             margin-bottom: 1rem;
             text-align: center;
+            color: $texte;
         }
         
         & h2 {
             text-align: center;
+            color: $texte;
         }
     }
 
@@ -139,7 +213,7 @@ body {
                 
                 & a {
                     position: relative;
-                    color: #000;
+                    color: $texte;
                     
                     &:after {
                         content: "";
@@ -187,6 +261,7 @@ body {
             
             & p {
                 display: none;
+                color: $texte;
             }
         }
 
@@ -218,7 +293,7 @@ body {
 
         & h3 {
             margin-bottom: 1.5rem;
-            color: rgb(7, 204, 33);
+            color: $vert-fonce;
         }
 
         & .first-footer-content {
