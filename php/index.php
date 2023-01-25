@@ -44,7 +44,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">7.90 €</div>
-                        <a href="menus/menu-normal"><div class="buton-choisir">Choisir</div></a>
+                        <a href="menus/menu-simple"><div class="buton-choisir">Choisir</div></a>
                     </div>
                 </div>
                 

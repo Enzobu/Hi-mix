@@ -94,6 +94,9 @@ body::-webkit-scrollbar-thumb:active {
   max-width: 3rem;
   width: 100%;
 }
+.header .header-buton .nav-item a {
+  color: #484349;
+}
 .header .nav {
   display: flex;
   width: 100%;

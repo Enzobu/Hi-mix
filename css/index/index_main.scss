@@ -39,11 +39,14 @@
 // $blanc: #e8fff3;
 $blanc: #fff;
 $noir: #000;
-$texte: #504852;
+// $texte: #504852;
+// $texte: #686868;
+$texte: #514b52;
 $vert-base: rgb(69, 255, 94);
 $noir-op_0_75: rgba(0, 0, 0, 0.75);
 $bleu-vert-pastel: rgb(230, 255, 230);
 $vert-fonce: rgb(0, 94, 15);
+$footer_menu_background_color: rgba(255, 255, 255, 0.3);
 
 //first-menu
 $vert-jaune-op_0_8: rgba(184, 255, 69, 0.8);
@@ -123,8 +126,8 @@ $blur-buton-menu: 50px;
                 & .titre-menu {
                     display: flex;
                     flex-direction: column;
-                    padding: .5rem;
-                    text-align: center;
+                    padding: .5rem 1rem;
+                    text-align: left;
                     border-radius: 0 40px 0 0;
 
                     & h4 {
@@ -155,6 +158,7 @@ $blur-buton-menu: 50px;
                         font-size: 1.35rem;
                         font-weight: bold;
                         color: $texte;
+                        margin-bottom: .75rem;
                     }
                     
                     & a {
@@ -183,11 +187,12 @@ $blur-buton-menu: 50px;
 
             & .first-menu {
                 // background: linear-gradient(-35deg, $vert-jaune-op_0_8 40%, $vert-jaune-blanc-op_0_8);
-                background-image: url('../../img/CaptureSoShape.PNG');
+                background-image: url('../../img/fond_menu_vert.PNG');
                 background-position: center;
                 
                 & .footer-menu {
                     // background: linear-gradient(45deg, $vert-jaune, $vert-jaune-blanc 65%);
+                    background: $footer_menu_background_color;
                     backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {
@@ -199,11 +204,12 @@ $blur-buton-menu: 50px;
             
             & .second-menu {
                 // background: linear-gradient(-35deg, $vert-op_0_8 40%, $vert-blanc-op_0_8);;
-                background-image: url('../../img/CaptureSoShape.PNG');
+                background-image: url('../../img/fond_menu_cyan.PNG');
                 background-position: center;
                 
                 & .footer-menu {
                     // background: linear-gradient(45deg, $vert, $vert-blanc 65%);
+                    background: $footer_menu_background_color;
                     backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {
@@ -215,11 +221,12 @@ $blur-buton-menu: 50px;
             
             & .third-menu {
                 // background: linear-gradient(-35deg, $vert-bleu-op_0_8 40%, $vert-bleu-blanc-op_0_8);;
-                background-image: url('../../img/CaptureSoShape.PNG');
+                background-image: url('../../img/fond_menu_bleu.PNG');
                 background-position: center;
                 
                 & .footer-menu {
                     // background: linear-gradient(45deg, rgb(30, 255, 180), rgb(162, 255, 224) 65%);
+                    background: $footer_menu_background_color;
                     backdrop-filter: blur($blur-footer-menu);
                     
                     & .buton-choisir {

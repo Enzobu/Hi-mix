@@ -17,11 +17,11 @@
 .bg-body-1 .global-menu-titre .titre-global-menu h2 {
   margin-bottom: 1rem;
   font-size: 2.25rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .titre-global-menu h3 {
   margin-bottom: 1rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu {
   display: flex;
@@ -40,17 +40,17 @@
 .bg-body-1 .global-menu-titre .global-menu .menu .titre-menu {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem;
-  text-align: center;
+  padding: 0.5rem 1rem;
+  text-align: left;
   border-radius: 0 40px 0 0;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h4 {
   font-size: 1.5rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .titre-menu h5 {
   font-size: 0.8rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .body-menu {
   height: 22.3rem;
@@ -67,13 +67,14 @@
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu .prix {
   font-size: 1.35rem;
   font-weight: bold;
-  color: #504852;
+  color: #514b52;
+  margin-bottom: 0.75rem;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a {
   font-size: 1.35rem;
   font-weight: bold;
   transition: 0.5s;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a:hover {
   transform: scale(1.1);
@@ -86,13 +87,14 @@
   height: 2.5rem;
   border: solid 2px #000;
   border-radius: 15px;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu .first-menu {
-  background-image: url("../../img/CaptureSoShape.PNG");
+  background-image: url("../../img/fond_menu_vert.PNG");
   background-position: center;
 }
 .bg-body-1 .global-menu-titre .global-menu .first-menu .footer-menu {
+  background: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
@@ -101,10 +103,11 @@
           backdrop-filter: blur(50px);
 }
 .bg-body-1 .global-menu-titre .global-menu .second-menu {
-  background-image: url("../../img/CaptureSoShape.PNG");
+  background-image: url("../../img/fond_menu_cyan.PNG");
   background-position: center;
 }
 .bg-body-1 .global-menu-titre .global-menu .second-menu .footer-menu {
+  background: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
@@ -113,10 +116,11 @@
           backdrop-filter: blur(50px);
 }
 .bg-body-1 .global-menu-titre .global-menu .third-menu {
-  background-image: url("../../img/CaptureSoShape.PNG");
+  background-image: url("../../img/fond_menu_bleu.PNG");
   background-position: center;
 }
 .bg-body-1 .global-menu-titre .global-menu .third-menu .footer-menu {
+  background: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
@@ -146,7 +150,7 @@
   max-width: 215px;
   width: 100%;
   align-items: center;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-2 .info-livraison-paiement .item-info-livraison-paiement img {
   max-width: 5rem;
@@ -185,7 +189,7 @@
 .bg-body-3 .img-txt-description .txt-description p {
   margin-top: 2rem;
   font-size: 1.08rem;
-  color: #504852;
+  color: #514b52;
 }
 
 .bg-body-4 {
@@ -202,12 +206,12 @@
   font-size: 1.6rem;
   font-weight: bolder;
   margin-bottom: 4rem;
-  color: #504852;
+  color: #514b52;
   text-transform: uppercase;
 }
 .bg-body-4 .text-mail {
   margin: 0 2.5rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-4 form {
   margin-top: 3rem;
@@ -217,7 +221,7 @@
   border: solid 2px #000;
   border-radius: 10px;
   margin: 0 0.75rem;
-  color: #504852;
+  color: #514b52;
 }
 .bg-body-4 form input[type=mail] {
   width: 15rem;

@@ -173,6 +173,13 @@ body {
             max-width: 3rem;
             width: 100%;
         }
+
+        & .nav-item {
+
+            & a {
+                color: #484349;
+            }
+        }
     }
 
     & .nav {
