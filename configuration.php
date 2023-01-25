@@ -6,7 +6,7 @@ const MAPPING = [
     '' => 'php/index.php',
     '404' => 'php/404.php',
     'test' => 'php/test.php',
-    'mail' => 'php/mail.php'
+    'menu-simple' => 'php/menu_simple.php'
 ];
 
 function getFileFromUrl(){
