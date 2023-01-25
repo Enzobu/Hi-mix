@@ -30,7 +30,7 @@
     </div>
 
     <div class="scrollUp">
-        <a href="#top"><img src="img/up-arrow.svg"/></a>
+        <a href="menu-simple#top"><img src="img/up-arrow.svg"/></a>
     </div>
 
     <footer>
@@ -38,7 +38,4 @@
     </footer>
     
 </body>
-</html>    
-
-
-<!-- rgba(255, 239, 231, 1) -->
+</html>
