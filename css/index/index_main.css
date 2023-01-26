@@ -73,7 +73,7 @@
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a {
   font-size: 1.35rem;
   font-weight: bold;
-  transition: 0.5s;
+  transition: 0.25s;
   color: #514b52;
 }
 .bg-body-1 .global-menu-titre .global-menu .menu .footer-menu a:hover {
