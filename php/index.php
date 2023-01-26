@@ -93,6 +93,8 @@
                     <b>➔ Résultats prouvés.</b> Pas d’ingrédient miracle. Juste une nutrition optimale réglementaire.
                     <br><br>
                     <b>➔ Résultats voulus.</b> On garde ses muscles ! Jusqu’à 25 g de protéines par repas.
+                    <br><br>
+                    <b>➔ Gardez le controle !</b>
                 </p>
             </div>
         </div>
