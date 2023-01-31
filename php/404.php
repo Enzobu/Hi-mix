@@ -10,7 +10,7 @@
         <div class="header">
             <?php  include("php/part/header.php"); ?>
             <div class="title">
-                <h1>404</h1>
+                <h1><strong>HI-MIX</strong></h1>
                 <h2>La page demandé n'existe pas.</h2>
                 <a href="">RETOUR A L'ACCUEIL</a>
             </div>

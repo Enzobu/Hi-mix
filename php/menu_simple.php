@@ -10,14 +10,47 @@
         <div class="header">
             <?php  include("php/part/header.php"); ?>
             <div class="title">
-                <h1>HI-MIX</h1>
+                <h1><strong>HI-MIX</strong></h1>
                 <h2>Menu simple</h2>
             </div>
         </div>
     </header>
 
     <div class="bg-body-1" id="menus">
-        <p>bon bah la faut mettre ce qu'il y a dans le menu</p>
+        <div class="compo-menu">
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+            <div class="compo-item">
+                <div class="body-compo-item">Ici, le Body hehe</div>
+                <div class="footer-compo-item">Ajouter : <div class="ajouter-button"><img src="img/ajouter.svg" alt="Bouton ajouter"></div></div>
+            </div>
+        </div>
     </div>
 
     <div class="bg-body-4">

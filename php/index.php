@@ -10,7 +10,7 @@
         <div class="header">
             <?php  include("php/part/header.php"); ?>
             <div class="title">
-                <h1>HI-MIX</h1>
+                <h1><strong>HI-MIX</strong></h1>
                 <h2>Où L'INNOVATION SE MARIE AVEC RESTAURATION</h2>
             </div>
         </div>

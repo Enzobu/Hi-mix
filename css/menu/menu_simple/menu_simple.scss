@@ -21,6 +21,63 @@ $footer_menu_background_color: rgba(255, 255, 255, 0.3);
 // ---------------------------------------------------------------
 
 
+.bg-body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .compo-menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: 1.5rem;
+        
+        & .compo-item {
+            background: #e7e7e7;
+            justify-self: center;
+            align-items: center;
+            margin: 1rem;
+
+            & .body-compo-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 15rem;
+                margin: .5rem 0;
+                padding: .75rem;
+                text-align: center;
+            }
+
+            & .footer-compo-item {
+                display: flex;
+                background: #ceceff;
+                width: 15rem;
+                padding: .25rem;
+                align-items: center;
+                justify-content: space-around;
+                text-align: center;
+
+                & img {
+                    max-width: 1.5rem;
+                    width: 100%;
+                    border-radius: 100%;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    &:active {
+                        background: rgb(7, 207, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 .bg-body-4 {
     // Restons en contact
