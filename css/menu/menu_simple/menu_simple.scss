@@ -12,7 +12,8 @@ $noir-op_0_75: rgba(0, 0, 0, 0.75);
 $bleu-vert-pastel: rgb(230, 255, 230);
 $vert-fonce: rgb(0, 94, 15);
 $footer_menu_background_color: rgba(255, 255, 255, 0.3);
-
+$shadow-compo-item: rgb(228, 228, 228);
+$border-top-footer-compo-menu: rgb(243, 243, 243);;
 
 // ---------------------------------------------------------------
 // ---------------------------------------------------------------
@@ -36,9 +37,10 @@ $footer_menu_background_color: rgba(255, 255, 255, 0.3);
         margin: 1.5rem;
         
         & .compo-item {
-            background: #e7e7e7;
+            // background: #e7e7e7;
             justify-self: center;
             align-items: center;
+            box-shadow: 0px 0px 10px $shadow-compo-item;
             margin: 1rem;
 
             & .body-compo-item {
@@ -53,25 +55,44 @@ $footer_menu_background_color: rgba(255, 255, 255, 0.3);
 
             & .footer-compo-item {
                 display: flex;
-                background: #ceceff;
                 width: 15rem;
                 padding: .25rem;
                 align-items: center;
                 justify-content: space-around;
                 text-align: center;
+                border-top: solid 1px $border-top-footer-compo-menu;
 
-                & img {
-                    max-width: 1.5rem;
-                    width: 100%;
-                    border-radius: 100%;
+                & .ajouter-button {
+                    margin-bottom: 1.5rem;*
 
                     &:hover {
-                        transform: scale(1.1);
+                        & img {
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                    &:active {
+
+                        & img:nth-child(1) {
+                            visibility: hidden;
+                        }
+                        
+                        & img:nth-child(2) {
+                            visibility: visible;
+                        }
                     }
 
-                    &:active {
-                        background: rgb(7, 207, 0);
+                    & img {
+                        max-width: 1.5rem;
+                        width: 100%;
+                        border-radius: 100%;
+                        position: absolute;
                     }
+
+                    & img:nth-child(2) {
+                        visibility: hidden;
+                    }
+
                 }
             }
         }

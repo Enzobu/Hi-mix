@@ -13,9 +13,9 @@
   margin: 1.5rem;
 }
 .bg-body-1 .compo-menu .compo-item {
-  background: #e7e7e7;
   justify-self: center;
   align-items: center;
+  box-shadow: 0px 0px 10px rgb(228, 228, 228);
   margin: 1rem;
 }
 .bg-body-1 .compo-menu .compo-item .body-compo-item {
@@ -29,23 +29,33 @@
 }
 .bg-body-1 .compo-menu .compo-item .footer-compo-item {
   display: flex;
-  background: #ceceff;
   width: 15rem;
   padding: 0.25rem;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  border-top: solid 1px rgb(243, 243, 243);
 }
-.bg-body-1 .compo-menu .compo-item .footer-compo-item img {
+.bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button {
+  margin-bottom: 1.5rem;
+}
+* .bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button:hover img {
+  transform: scale(1.1);
+}
+.bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button:active img:nth-child(1) {
+  visibility: hidden;
+}
+.bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button:active img:nth-child(2) {
+  visibility: visible;
+}
+.bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button img {
   max-width: 1.5rem;
   width: 100%;
   border-radius: 100%;
+  position: absolute;
 }
-.bg-body-1 .compo-menu .compo-item .footer-compo-item img:hover {
-  transform: scale(1.1);
-}
-.bg-body-1 .compo-menu .compo-item .footer-compo-item img:active {
-  background: rgb(7, 207, 0);
+.bg-body-1 .compo-menu .compo-item .footer-compo-item .ajouter-button img:nth-child(2) {
+  visibility: hidden;
 }
 
 .bg-body-4 {
