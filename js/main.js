@@ -54,6 +54,27 @@ jQuery(function(){
 // document.addEventListener('scroll', menuCacheSize);
 // menuCacheSize();
 
+popUpMailNone ();
+
+function popUpMail (){
+    popUpMailBlock ();
+    setTimeout(popUpMailNone (),2000);
+}
+
+function popUpMailBlock (){
+    var largeur = window.innerWidth;
+    var elem1 = document.getElementById('pop-up-mail');
+    var rect = elem1.getBoundingClientRect();
+    var margeGauche = ((largeur - rect['width']) / 2);
+    elem1.style.borderLeft=margeGauche;
+    elem1.style.display='block';
+}
+
+function popUpMailNone (){
+    var elem1 = document.getElementById('pop-up-mail');
+    elem1.style.display='none';
+}
+
 
 
 function changerLeft (gauche){

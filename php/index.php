@@ -100,13 +100,14 @@
         </div>
     </div>
     
-    <div class="bg-body-4">
+    <div class="bg-body-4" onclick="popUpMail ();">
         <p class="title-mail">Restons en contact !</p>
         <p class="text-mail">Inscrivez-vous pour être informé des sorties produit et promos exclusives, des infos, des recettes, et des conseils pour toujours être au top.</p>
         <form action="" method="GET">
             <input type="mail" name="mail" placeholder="Votre e-mail" required>
-            <input type="submit" value="HOP !">
+            <input type="submit" value="HOP !" id="button" onclick="popUpMail ();">
         </form>
+        <div class="pop-up-mail" id="pop-up-mail">azertyuio</div>
     </div>
 
     <div class="scrollUp">

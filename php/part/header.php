@@ -5,8 +5,8 @@
 </div>
 <nav class="nav" id="nav">
     <ul class="nav-list">
-        <li class="nav-item"><a href="#menus">Menus</a></li>
-        <li class="nav-item"><a href="#pourquoi-hi-mix">Hi-Mix ?</a></li>
+        <li class="nav-item" onclick="changerLeft2('-18rem');"><a href="#menus">Menus</a></li>
+        <li class="nav-item" onclick="changerLeft2('-18rem');"><a href="#pourquoi-hi-mix">Hi-Mix ?</a></li>
     </ul>
     <ul class="nav-list">
         <li class="nav-item"><a href="">HI-MIX</a></li>
