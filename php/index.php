@@ -84,6 +84,8 @@
                     Pourquoi Hi-Mix ?
                 </h3>
                 <p>
+                    <b>➔ Gardez le controle !</b>
+                    <br><br>
                     <b>➔ Résultats faciles.</b> Les repas So Shape font le travail pour vous.
                     <br><br>
                     <b>➔ Résultats fiables.</b> Le minimum de calories pour bien s’affiner.
@@ -93,8 +95,6 @@
                     <b>➔ Résultats prouvés.</b> Pas d’ingrédient miracle. Juste une nutrition optimale réglementaire.
                     <br><br>
                     <b>➔ Résultats voulus.</b> On garde ses muscles ! Jusqu’à 25 g de protéines par repas.
-                    <br><br>
-                    <b>➔ Gardez le controle !</b>
                 </p>
             </div>
         </div>
