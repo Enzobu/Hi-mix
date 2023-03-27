@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include('php/head.php'); ?>
-    <link rel="stylesheet" href="css/404/404.css">
+    <link rel="stylesheet" href="css/cart/cart.css">
     <title>Panier - Hi-Mix</title>
 </head>
 <body id="body">
@@ -10,9 +10,7 @@
         <div class="header">
             <?php  include("php/header.php"); ?>
             <div class="title">
-                <h1><strong>HI-MIX</strong></h1>
-                <h2>La page demandé n'existe pas.</h2>
-                <a href="/">RETOUR A L'ACCUEIL</a>
+                <h1><strong>le panier</strong></h1>
             </div>
         </div>
     </header>
