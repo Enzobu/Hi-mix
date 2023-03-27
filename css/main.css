@@ -214,6 +214,11 @@ body::-webkit-scrollbar-thumb:active {
   padding: 0.25rem;
   background: rgba(255, 255, 255, 0.25);
 }
+.header .navR .nav-list .pop-up-connexion-inscription .pop-up-connexion-inscription-body .error .error-message {
+  text-align: center;
+  color: #ff0000;
+  font-weight: 600;
+}
 .header .navR .nav-list .pop-up-connexion-inscription .pop-up-connexion-inscription-footer {
   margin-top: 1rem;
   text-align: center;
