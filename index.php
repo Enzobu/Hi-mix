@@ -123,3 +123,16 @@
 
 
 <!-- rgba(255, 239, 231, 1) -->
+
+
+<?php
+
+if(array_key_exists('error', $_GET)) {
+    echo '<script>';
+    echo 'var element = document.getElementById("pop-up-connexion");
+        element.classList.toggle("pop-up-hide");';
+    echo '</script>';
+}
+
+?>
+
