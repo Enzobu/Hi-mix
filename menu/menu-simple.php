@@ -3,7 +3,7 @@
 <head>
     <?php include('../php/head_menu.php'); ?>
     <link rel="stylesheet" href="../css/menu/menu_simple/menu_simple.css">
-    <title>Hi-mix - Où l'innovation se marie avec restauration</title>
+    <title>Menu simple - Hi-Mix</title>
 </head>
 <body id="body">
     <header>
