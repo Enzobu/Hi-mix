@@ -128,3 +128,13 @@ function changerDisplay (id, disp){
 function changerWidth (id, disp){
   document.getElementById(id).style.width=disp;
 }
+
+function popUpConnexion () {
+    var element = document.getElementById("pop-up-connexion");
+    element.classList.toggle("pop-up-hide");
+}
+
+function popUpInscription () {
+    var element = document.getElementById("pop-up-inscription");
+    element.classList.toggle("pop-up-hide");
+}
