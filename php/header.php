@@ -33,16 +33,26 @@
                 Se connecter
             </div>
             <div class="pop-up-connexion-inscription-body">
-                <form action="" method="POST">
+                <form action="/php/login.php" method="POST">
                     <div class="form">
                         <div class="input-desc">E-mail :</div>
-                        <input type="mail" placeholder="E-mail" required="required">
+                        <input type="mail" placeholder="E-mail" name="mail" required="required">
                         <div class="input-desc">Password :</div>
-                        <input type="password" placeholder="Password"required="required">
+                        <input type="password" placeholder="Password" name="password" required="required">
                         <div class="input-desc"></div>
+                        <input type="hidden" name="url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
                         <input type="submit" value="Se connecter">
                     </div>
                 </form>
+                <div class="error">
+                    <?php
+                        if(array_key_exists('error', $_GET)) {
+                            if($_GET['error'] == 1) {
+                                echo"<div class=\"error-message\">Adresse mail ou mot de passe</div>";
+                            }
+                        }
+                    ?>
+                </div>
             </div>
             <div class="pop-up-connexion-inscription-footer">
                 Pas encore inscrit ? <a onclick="popUpInscription(); popUpConnexion()">S'inscrire !</a>
@@ -56,18 +66,18 @@
                 S'inscrire
             </div>
             <div class="pop-up-connexion-inscription-body">
-                <form action="" method="POST">
+                <form action="php/signin.php" method="POST">
                     <div class="form">
                         <div class="input-desc">Nom :</div>
-                        <input type="text" placeholder="Name" required="required">
+                        <input type="text" placeholder="Name" name="name" required="required">
                         <div class="input-desc">Prénom :</div>
-                        <input type="text" placeholder="Surname" required="required">
+                        <input type="text" placeholder="Surname" name="surname" required="required">
                         <div class="input-desc">E-mail :</div>
-                        <input type="mail" placeholder="E-mail" required="required">
+                        <input type="mail" placeholder="E-mail" name="mail" required="required">
                         <div class="input-desc">Password :</div>
-                        <input type="password" placeholder="Password"required="required">
+                        <input type="password" placeholder="Password" name="password" required="required">
                         <div class="input-desc">re-Password :</div>
-                        <input type="password" placeholder="re-Password"required="required">
+                        <input type="password" placeholder="re-Password" required="required">
                         <div class="input-desc"></div>
                         <input type="submit" value="Se connecter">
                     </div>
