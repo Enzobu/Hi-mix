@@ -10,7 +10,7 @@
         <div class="header">
             <?php  include("php/header.php"); ?>
             <div class="title">
-                <h1><strong>le panier</strong></h1>
+                <div class="title">Panier</div>
             </div>
         </div>
     </header>
