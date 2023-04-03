@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <div class="header-buton">
     <div onclick="changerLeft('0');" class="header-icon"><img src="img/menu.svg" alt="menu"></div>
     <li class="nav-item"><a href="">HI-MIX</a></li>
@@ -12,7 +16,13 @@
         <li class="nav-item"><a href="/">HI-MIX</a></li>
     </ul>
     <ul class="nav-list">
-        <li class="nav-item"><a href="account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>
+        <?php
+        if(array_key_exists('mail', $_SESSION)) {
+            echo '<li class="nav-item"><a href="account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
+        } else {
+            echo '<li class="nav-item"><a href="account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
+        }
+        ?>
         <li class="nav-item"><a href="cart"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
         <li class="nav-item"><a href="mail"><p>Test mail</p></a></li>
     </ul>
@@ -26,7 +36,13 @@
         <li class="nav-item"><a href="/">HI-MIX</a></li>
     </ul>
     <ul class="nav-list">
-        <li class="nav-item"><a onclick="popUpConnexion()"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>
+    <?php
+        if(array_key_exists('mail', $_SESSION)) {
+            echo '<li class="nav-item"><a href="/my-account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
+        } else {
+            echo '<li class="nav-item"><a onclick="popUpConnexion()"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
+        }
+        ?>
         <!-- ---------------------------------------------- -->
         <div class="pop-up-connexion-inscription pop-up-hide" id="pop-up-connexion">
             <div class="pop-up-connexion-inscription-header">
