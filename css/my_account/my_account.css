@@ -1,0 +1,9 @@
+.header {
+  height: 15rem;
+}
+.header .title {
+  margin: 2rem 1.5rem 0 1.5rem !important;
+  text-transform: uppercase !important;
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+}/*# sourceMappingURL=my_account.css.map */
