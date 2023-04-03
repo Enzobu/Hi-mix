@@ -19,7 +19,8 @@ if(array_key_exists('mail', $_POST) and array_key_exists('password', $_POST)) {
             die();
         }
     }
-    header("Refresh: 0;url=/?error=1");
+    // header("Refresh: 0;url=/?error=1");
+    print_r($_POST);
 
 }
 
