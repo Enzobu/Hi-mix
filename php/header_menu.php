@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <div class="header-buton">
     <div onclick="changerLeft('0');" class="header-icon"><img src="../img/menu.svg" alt="menu"></div>
     <li class="nav-item"><a href="">HI-MIX</a></li>
