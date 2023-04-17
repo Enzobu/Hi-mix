@@ -12,7 +12,7 @@
                 <a href="https://www.instagram.com/hi_mix_france/" target="blank"><img src="img/instagram.svg" alt="Instagram"></a>
                 <a href="https://www.snapchat.com/hi-mix-france/" target="blank"><img src="img/snapchat.svg" alt="Snapchat"></a>
                 <a href="https://www.tiktok.com/hi-mix-france/" target="blank"><img src="img/tik-tok.svg" alt="Tik Tok"></a>
-                <a href="https://www.twitter.com/hi-mix-france/" target="blank"><img src="img/twitter.svg" alt="Twitter"></a>
+                <a href="https://www.twitter.com/hi_mix_food/" target="blank"><img src="img/twitter.svg" alt="Twitter"></a>
             </div>
         </div>
         <div class="second-footer-content">

@@ -6,4 +6,26 @@
   text-transform: uppercase !important;
   font-size: 2rem !important;
   font-weight: 300 !important;
+}
+
+.bg-body-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  max-width: 500rem;
+  width: 100%;
+  background: #fff;
+}
+
+.bg-body-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0rem;
+  max-width: 500rem;
+  width: 100%;
+  background: rgb(69, 255, 94);
 }/*# sourceMappingURL=cart.css.map */

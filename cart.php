@@ -15,6 +15,12 @@
         </div>
     </header>
 
+    <div class="bg-body-1"></div>
+    <div class="bg-body-4"></div>
+
+
+
+
     <div class="scrollUp">
         <a href="#top"><img src="img/up-arrow.png"/></a>
     </div>

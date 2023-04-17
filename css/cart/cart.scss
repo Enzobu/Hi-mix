@@ -1,3 +1,27 @@
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// -------------------------- Variables --------------------------
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+
+$blanc: #fff;
+$noir: #000;
+$texte: #514b52;
+$vert-base: rgb(69, 255, 94);
+$noir-op_0_75: rgba(0, 0, 0, 0.75);
+$bleu-vert-pastel: rgb(230, 255, 230);
+$vert-fonce: rgb(0, 94, 15);
+$footer_menu_background_color: rgba(255, 255, 255, 0.3);
+$shadow-compo-item: rgb(228, 228, 228);
+$border-top-footer-compo-menu: rgb(243, 243, 243);;
+
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// -------------------------- Variables --------------------------
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+
+
 .header {
     height: 12rem;
     & .title {
@@ -6,4 +30,27 @@
         font-size: 2rem !important;
         font-weight: 300 !important;
     }
+}
+
+.bg-body-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    max-width: 500rem;
+    width: 100%;
+    background: $blanc;
+}
+
+
+.bg-body-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0rem;
+    max-width: 500rem;
+    width: 100%;
+    background: $vert-base;
 }
