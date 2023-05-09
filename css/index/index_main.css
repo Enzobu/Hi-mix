@@ -213,6 +213,9 @@
   margin: 0 2.5rem;
   color: #514b52;
 }
+.bg-body-4 .newslettre-info {
+  font-size: 0.8rem;
+}
 .bg-body-4 form {
   margin-top: 3rem;
 }
