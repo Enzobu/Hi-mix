@@ -66,6 +66,9 @@ session_start();
                             if($_GET['error'] == 1) {
                                 echo"<div class=\"error-message\">Adresse mail ou mot de passe</div>";
                             }
+                            if($_GET['error'] == 2) {
+                                echo"<div class=\"error-message\">Veuillez vous connectez avant d'ajouter au panier</div>";
+                            }
                         }
                     ?>
                 </div>
@@ -107,3 +110,15 @@ session_start();
         <li class="nav-item"><a href="/cart"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
     </ul>
 </nav>
+
+
+<?php
+
+if(array_key_exists('error', $_GET)) {
+    echo '<script>';
+    echo 'var element = document.getElementById("pop-up-connexion");
+        element.classList.toggle("pop-up-hide");';
+    echo '</script>';
+}
+
+?>

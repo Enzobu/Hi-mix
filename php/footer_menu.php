@@ -5,6 +5,8 @@
                 <h3>HI-MIX</h3>
                 <p>Jsp (pcq en fait ya pas d'avis)</p>
                 <p>0 avis sur trustpilot</p>
+                <br>
+                <a href="/legal">Légal</a>
             </div>
             <div class="reseaux">
                 <h3>Nos réseaux sociaux</h3>
