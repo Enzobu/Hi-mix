@@ -22,44 +22,148 @@
                 <div class="body-compo-item"><img src="../img/compo-menu/riz.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
                 </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/poid_chiche.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/proteine.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/tomate.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/concombre.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/oeuf.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
             <div class="compo-item">
                 <div class="body-compo-item"><img src="../img/compo-menu/patate.jpg" alt=""></div>
                 <div class="footer-compo-item">
                     Ajouter : 
-                    <div class="ajouter-button"><img src="../img/ajouter.svg" alt="Bouton ajouter"><img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert"></div></div>
+                    <?php if(array_key_exists('mail', $_SESSION)) { ?>
+                        <a href="">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="?error=2">
+                            <div class="ajouter-button">
+                                <img src="../img/ajouter.svg" alt="Bouton ajouter">
+                                <img src="../img/ajouter-vert.svg" alt="Bouton ajouter vert">
+                            </div>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
         </div>
     </div>
