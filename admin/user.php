@@ -42,10 +42,10 @@
                                 $search = htmlspecialchars($_GET['search']);
                                 $sql = "SELECT * FROM `user` WHERE `$searchType` = '$search'";
                             } else {
-                                $sql = "SELECT * FROM `user` ORDER BY `id` ASC";
+                                $sql = "SELECT * FROM `user` ORDER BY `id_clients` ASC";
                             }
                         } else {
-                            $sql = "SELECT * FROM `user` ORDER BY `id` ASC";
+                            $sql = "SELECT * FROM `user` ORDER BY `id_clients` ASC";
                         }
                     
                         
@@ -83,26 +83,36 @@
                                 <th> id </td>
                                 <th> Nom </td>
                                 <th> Prénom </td>
-                                <th> Civilité </td>
-                                <th> Email </td>
+                                <th> Mail </td>
+                                <th> Adresse 1 </td>
+                                <th> Adresse 2 </td>
+                                <th> CP </td>
+                                <th> Ville </td>
+                                <th> Date naiss </td>
                                 <th> Password </td>
+                                <th> Téléphone </td>
                                 <th> isAdmin </td>
                             </tr>
                             <?php foreach ($users as $user) { ?>
                             <tr>
                                 <td class="table-center"> 
-                                    <a href="php/gestion_BDD/user/user_delete.php?id=<?php echo $user['id']; ?>"><img src="image/effacer.png" alt="logo effacer"></a>
+                                    <a href="php/gestion_BDD/user/user_delete.php?id=<?php echo $user['id_clients']; ?>"><img src="image/effacer.png" alt="logo effacer"></a>
                                     
-                                    <a href="?id=<?php echo $user['id']; ?>#afficher2" class="afficher2"><img src="image/modifier.png" alt="logo modifier"></a>
+                                    <a href="?id=<?php echo $user['id_clients']; ?>#afficher2" class="afficher2"><img src="image/modifier.png" alt="logo modifier"></a>
                                     <a href="user.php" class="masquer2"><img src="image/modifier.png" alt="logo modifier"></a>
                                 
                                 </td>
-                                <td> <?php echo $user['id']; ?> </td>
-                                <td> <?php echo $user['nom']; ?> </td>
-                                <td> <?php echo $user['prenom']; ?> </td>
-                                <td> <?php echo $user['civilite']; ?> </td>
+                                <td> <?php echo $user['id_clients']; ?> </td>
+                                <td> <?php echo $user['nom_clients']; ?> </td>
+                                <td> <?php echo $user['prenom_clients']; ?> </td>
                                 <td> <?php echo $user['mail']; ?> </td>
+                                <td> <?php echo $user['adresse1_clients']; ?> </td>
+                                <td> <?php echo $user['adresse2_clients']; ?> </td>
+                                <td> <?php echo $user['CP_clients']; ?> </td>
+                                <td> <?php echo $user['ville_clients']; ?> </td>
+                                <td> <?php echo $user['date_naissance_clients']; ?> </td>
                                 <td> <?php echo $user['password']; ?> </td>
+                                <td> <?php echo $user['telephone_clients']; ?> </td>
                                 <td> <?php echo $user['isAdmin']; ?> </td>
                             </tr>
                             <?php } ?>
@@ -118,17 +128,27 @@
                             <form action="php/gestion_BDD/user/user_insert.php" method="post">
                                 <div class="formulaire">
                                     <div>Nom : </div>
-                                    <div><input type="text" name="nom" placeholder="Nom" required="required"/></div>
+                                    <div><input type="text" name="nom" placeholder="Nom"/></div>
                                     <div>Prénom : </div>
-                                    <div><input type="text" name="prenom" placeholder="Prénom" required="required"/></div>
-                                    <div>Civilité : </div>
-                                    <div class="radio"> M <input type="radio" name="civilite" value="M" required="required"/> F <input type="radio" name="civilite" value="F" required="required"/></div>
+                                    <div><input type="text" name="prenom" placeholder="Prénom"/></div>
                                     <div>Email : </div>
-                                    <div><input type="text" name="mail" placeholder="Email" required="required"/></div>
+                                    <div><input type="text" name="mail" placeholder="Email"/></div>
+                                    <div>Adresse 1 : </div>
+                                    <div><input type="text" name="adresse1" placeholder="Adresse 1"/></div>
+                                    <div>Adresse 2 : </div>
+                                    <div><input type="text" name="adresse2" placeholder="Adresse 2"/></div>
+                                    <div>Code postal : </div>
+                                    <div><input type="number" name="CP" placeholder="Code postal"/></div>
+                                    <div>Ville : </div>
+                                    <div><input type="text" name="ville" placeholder="Ville"/></div>
+                                    <div>Date de naissance : </div>
+                                    <div><input type="date" name="date_de_naisance" placeholder="Date de naissance"/></div>
                                     <div>Password : </div>
-                                    <div><input type="text" name="password" placeholder="Password" required="required"/></div>
+                                    <div><input type="password" name="password" placeholder="Password"/></div>
+                                    <div>Téléphone : </div>
+                                    <div><input type="number" name="telephone" placeholder="Téléphone"/></div>
                                     <div>isAdmin : </div>
-                                    <div class="radio"> YES <input type="radio" name="isAdmin" value="1" required="required"/> NO <input type="radio" name="isAdmin" value="0" required="required"/></div>
+                                    <div class="radio"> YES <input type="radio" name="isAdmin" value="1"/> NO <input type="radio" name="isAdmin" value="0"/></div>
                                 </div>
                                 <button type="submit" class="boutton">Ajouter</button>
                             </form> 
@@ -148,12 +168,22 @@
                                     <div><input type="text" name="nom" placeholder="Nom"/></div>
                                     <div>Prénom : </div>
                                     <div><input type="text" name="prenom" placeholder="Prénom"/></div>
-                                    <div>Civilité : </div>
-                                    <div class="radio"> M <input type="radio" name="civilite" value="M"/> F <input type="radio" name="civilite" value="F"/></div>
-                                    <div>Email : </div>
-                                    <div><input type="text" name="email" placeholder="Email"/></div>
+                                    <div>Mail : </div>
+                                    <div><input type="text" name="mail" placeholder="Mail"/></div>
+                                    <div>Adresse 1 : </div>
+                                    <div><input type="text" name="adresse1" placeholder="Adresse 1"/></div>
+                                    <div>Adresse 2 : </div>
+                                    <div><input type="text" name="adresse2" placeholder="Adresse 2"/></div>
+                                    <div>Code postal : </div>
+                                    <div><input type="number" name="CP" placeholder="Code postal"/></div>
+                                    <div>Ville : </div>
+                                    <div><input type="text" name="ville" placeholder="Ville"/></div>
+                                    <div>Date de naissance : </div>
+                                    <div><input type="date" name="date_de_naisance" placeholder="Date de naissance"/></div>
                                     <div>Password : </div>
                                     <div><input type="text" name="password" placeholder="Password"/></div>
+                                    <div>Téléphone : </div>
+                                    <div><input type="number" name="telephone" placeholder="Téléphone"/></div>
                                     <div>isAdmin : </div>
                                     <div class="radio"> YES <input type="radio" name="isAdmin" value="1"/> NO <input type="radio" name="isAdmin" value="0"/></div>
                                 </div>

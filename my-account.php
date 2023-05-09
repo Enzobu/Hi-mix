@@ -11,7 +11,16 @@
             <?php  include("php/header.php"); ?>
             <div class="title">
                 <div class="title">Mon compte</div>
-                <div class="title"><a href="/php/login?session=destroy">Se déconnecter</a></div>
+                <div class="title">
+                    <a href="/php/login?session=destroy">Se déconnecter</a>
+                    <?php
+                    if(array_key_exists('isAdmin', $_SESSION)) {
+                        if($_SESSION['isAdmin'] == 1) {
+                            echo "<a href=\"/admin\">Admin</a>";
+                        } 
+                    }
+                    ?>
+                </div>
             </div>
         </div>
     </header>

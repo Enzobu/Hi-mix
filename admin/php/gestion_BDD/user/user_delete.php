@@ -8,7 +8,7 @@
     }
     else {
         $id = (int)$id;
-        $sql = "DELETE FROM `user` WHERE id = $id";
+        $sql = "DELETE FROM `user` WHERE id_clients = $id";
         $requete = $db->query($sql);
     }
     
