@@ -32,7 +32,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">4.90 €</div>
-                        <a href="menu/menu-etudiant"><div class="buton-choisir">Choisir</div></a>
+                        <a href="menu/menu-simple"><div class="buton-choisir">Choisir</div></a>
                     </div>
                 </div>
                 
@@ -56,7 +56,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">10.90 €</div>
-                        <a href="menu-maxi"><div class="buton-choisir"><p>Choisir</p></div></a>
+                        <a href="menu-simple"><div class="buton-choisir"><p>Choisir</p></div></a>
                     </div>
                 </div>
             </div>
@@ -125,14 +125,5 @@
 <!-- rgba(255, 239, 231, 1) -->
 
 
-<?php
 
-if(array_key_exists('error', $_GET)) {
-    echo '<script>';
-    echo 'var element = document.getElementById("pop-up-connexion");
-        element.classList.toggle("pop-up-hide");';
-    echo '</script>';
-}
-
-?>
 
