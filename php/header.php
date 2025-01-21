@@ -23,7 +23,7 @@ session_start();
             echo '<li class="nav-item"><a href="account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
         }
         ?>
-        <li class="nav-item"><a href="/cart"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
+        <li class="nav-item"><a href="/cart.php"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
         <li class="nav-item"><a href="mail"><p>Test mail</p></a></li>
     </ul>
 </nav>
@@ -38,7 +38,7 @@ session_start();
     <ul class="nav-list">
     <?php
         if(array_key_exists('mail', $_SESSION)) {
-            echo '<li class="nav-item"><a href="/my-account"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
+            echo '<li class="nav-item"><a href="/my-account.php"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
         } else {
             echo '<li class="nav-item"><a onclick="popUpConnexion()"><img src="img/compte.svg" alt="mon compte"><p class="resonsive">Mon compte</p></a></li>';
         }
@@ -107,7 +107,7 @@ session_start();
             </div>
         </div>
         <!-- ---------------------------------------------- -->
-        <li class="nav-item"><a href="/cart"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
+        <li class="nav-item"><a href="/cart.php"><img src="img/panier.svg" alt="panier"><p class="resonsive">Panier</p></a></li>
     </ul>
 </nav>
 

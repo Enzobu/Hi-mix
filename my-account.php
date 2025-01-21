@@ -12,7 +12,7 @@
             <div class="title">
                 <div class="title">Mon compte</div>
                 <div class="title">
-                    <a href="/php/login?session=destroy">Se déconnecter</a>
+                    <a href="/php/login.php?session=destroy">Se déconnecter</a>
                     <?php
                     if(array_key_exists('isAdmin', $_SESSION)) {
                         if($_SESSION['isAdmin'] == 1) {

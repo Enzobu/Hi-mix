@@ -32,7 +32,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">4.90 €</div>
-                        <a href="menu/menu-simple"><div class="buton-choisir">Choisir</div></a>
+                        <a href="menu/menu-simple.php"><div class="buton-choisir">Choisir</div></a>
                     </div>
                 </div>
                 
@@ -44,7 +44,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">7.90 €</div>
-                        <a href="menu/menu-simple"><div class="buton-choisir">Choisir</div></a>
+                        <a href="menu/menu-simple.php"><div class="buton-choisir">Choisir</div></a>
                     </div>
                 </div>
                 
@@ -56,7 +56,7 @@
                     <div class="body-menu"></div>
                     <div class="footer-menu">
                         <div class="prix">10.90 €</div>
-                        <a href="menu-simple"><div class="buton-choisir"><p>Choisir</p></div></a>
+                        <a href="menu-simple.php"><div class="buton-choisir"><p>Choisir</p></div></a>
                     </div>
                 </div>
             </div>
